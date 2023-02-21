@@ -23,7 +23,7 @@ public class pro2 {
 //        }
 //        return answer;
 //    }
-
+    //카드뭉치
     public String solution(String[] cards1, String[] cards2, String[] goal) {
         int card1 = 0;
         int card1max = cards1.length;
