@@ -1,4 +1,4 @@
-package org.example.bronze;
+package org.example.programmers;
 import java.util.*;
 public class pro4 {
 

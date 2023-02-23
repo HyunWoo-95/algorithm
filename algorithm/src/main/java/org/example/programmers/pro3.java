@@ -1,4 +1,4 @@
-package org.example.bronze;
+package org.example.programmers;
 
 public class pro3 {
     // 둘만의 암호
