@@ -15,3 +15,10 @@ Scanner 사용 방법을 알지 못함.
 EOF(End Of File)을 알지 못함
 1. EOF란 End Of File로 데이터 소스로부터 더 이상 읽을 수 잇는 데이터가 없을을 나타내는 용어이다.
 2. 알고리즘 문제에서 주로 입력값을 얼마나 받을지 명시하지 않을 경우 사용한다.
+
+# 11718번 문제
+SCANNER의 next와 nextLine의 차이, hasNext(), hasNextLine()의 차이를 알지 못함
+1. next()는 공백을 기준으로 문자열을 구분한다.(개행 문자를 무시)
+2. nextLine()은 개행문자를 기준으로 문자열을 구분한다.(개항문자를 포함)
+3. hasNext()는 입력값이 있으면 true, 없으면 false를 반환한다.
+4. hasNextLine()은 입력값이 있으면 true, 없으면 false를 반환한다.
