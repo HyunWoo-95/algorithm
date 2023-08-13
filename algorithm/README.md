@@ -22,3 +22,8 @@ SCANNER의 next와 nextLine의 차이, hasNext(), hasNextLine()의 차이를 알
 2. nextLine()은 개행문자를 기준으로 문자열을 구분한다.(개항문자를 포함)
 3. hasNext()는 입력값이 있으면 true, 없으면 false를 반환한다.
 4. hasNextLine()은 입력값이 있으면 true, 없으면 false를 반환한다.
+
+# 2438번 문제
+첫 BufferedReader 사용 read(), readLine()의 차이를 알지 못함
+1. read()는 입력된 문자 읽어 그에 해당하는 ASCII 10진수 정수를 반환한다. 즉 입력값이 0-9라면 ASCII 10진수 int값인 48-57을 반환한다.
+2. 숫자를 입력받고 싶다면 redaLine()으로 String을 입력받은은후 Integer.parseInt() 메서드를 이용하여 타입변환을 해야한다.
