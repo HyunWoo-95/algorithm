@@ -24,10 +24,10 @@ public class Main_1499 {
     }
     Arrays.sort(asPoint);
     int range = (int) (asPoint[0] - 0.5 + L);
-   int min = 1;
+    int min = 1;
 
-    for (int i = 1; i < asPoint.length ; i++) {
-      if (range < (int) (asPoint[i] - 0.5)) {
+    for (int i = 1; i < asPoint.length; i++) {
+      if (range < (int) (asPoint[i] + 0.5)) {
         range = (int) (asPoint[i] - 0.5 + L);
         min++;
       }
