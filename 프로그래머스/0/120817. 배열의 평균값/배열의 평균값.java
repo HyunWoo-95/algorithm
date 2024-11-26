@@ -10,7 +10,8 @@ class Solution {
         // answer = (double)sum / numbers.length;
         // return answer;
         
-        IntStream intStream = Arrays.stream(numbers);
-        return intStream.average().getAsDouble();
+        // IntStream intStream = Arrays.stream(numbers);
+        // return intStream.average().getAsDouble();
+        return Arrays.stream(numbers).average().getAsDouble();
     }
 }
