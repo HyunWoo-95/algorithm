@@ -3,10 +3,15 @@ import java.util.*;
 public class Solution {
     public int solution(int n) {
         int answer = 0;
-        String num = n + "";
-        String[] arr = num.split("");
-        for(int i = 0; i < arr.length; i++){
-            answer += Integer.valueOf(arr[i]);
+        // String num = n + "";
+        // String[] arr = num.split("");
+        // for(int i = 0; i < arr.length; i++){
+        //     answer += Integer.valueOf(arr[i]);
+        // }
+        while(true){
+            answer+= n%10;
+            if(n<10) break;
+            n = n/10;
         }
 
         // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
