@@ -1,5 +1,3 @@
-
-
 def solution(t, p):
     answer = 0
     len_p = len(p) # '271' = 3
@@ -8,3 +6,6 @@ def solution(t, p):
         if int(t[i:i+len_p]) <= int_p: # 
             answer += 1
     return answer
+# def solution(t, p):
+#     len_p = len(p)
+#     return sum(1 for i in range(len(t) - len_p + 1) if t[i:i+len_p] <= p)
