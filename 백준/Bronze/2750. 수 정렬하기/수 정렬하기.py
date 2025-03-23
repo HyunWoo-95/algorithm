@@ -1,8 +1,14 @@
+import sys
+
+input = sys.stdin.readline
+
 n = int(input())
-arr = []
+arr = [0] * (2000 + 1)
+
 for i in range(n):
-    num = int(input())
-    arr.append(num)
-arr.sort()
-for i in arr:
-    print(i)
+    arr[int(input()) + 1000] = 1 
+
+
+for i in range(len(arr)):
+    if arr[i]:
+        print(i - 1000)
