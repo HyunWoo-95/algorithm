@@ -1,10 +1,10 @@
 # [level 0] 문자열 뒤집기 - 181905 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181905?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181905) 
 
 ### 성능 요약
 
-메모리: 9.17 MB, 시간: 0.42 ms
+메모리: 9.29 MB, 시간: 0.03 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 07월 25일 15:48:15
+2025년 07월 25일 15:56:12
 
 ### 문제 설명
 
